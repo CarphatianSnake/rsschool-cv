@@ -45,14 +45,18 @@ In my free time, I like to ride a bike. I am fond of extreme types of mountain b
   let redoArr = [];
   
   const setLastAction = (arr, key) => {
+  
     const obj = { key, value: object[key] };
     obj.action = !object[key] ? 'del' : 'set';
     arr.push(obj);
+    
   };
   
   const setActionData = (key) => {
+  
     redoArr = [];
     setLastAction(undoArr, key);
+    
   };
   
   const restoreLastAction = (unReAction, restoreActionArr, setActionArr) => {
@@ -69,23 +73,29 @@ In my free time, I like to ride a bike. I am fond of extreme types of mountain b
   };
   
   return {
+  
     set(key, value) {
       setActionData(key);
       object[key] = value;
     },
+    
     get(key) {
       return object[key];
     },
+    
     del(key) {
       setActionData(key);
       delete object[key];
     },
+    
     undo() {
       restoreLastAction('undo', undoArr, redoArr);
     },
+    
     redo() {
       restoreLastAction('redo', redoArr, undoArr);
     }
+    
   };
   
 }
