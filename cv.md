@@ -37,3 +37,48 @@ In my free time, I like to ride a bike. I am fond of extreme types of mountain b
  - Teamwork
  - Team management
 
+## Code Example
+ ```javascript
+ function undoRedo(object) {
+  let undoArr = [];
+  let redoArr = [];
+  const setLastAction = (arr, key) => {
+    const obj = { key, value: object[key] };
+    obj.action = !object[key] ? 'del' : 'set';
+    arr.push(obj);
+  };
+  const setActionData = (key) => {
+    redoArr = [];
+    setLastAction(undoArr, key);
+  };
+  const restoreLastAction = (unReAction, restoreActionArr, setActionArr) => {
+    if (restoreActionArr.length > 0) {
+      const lastAction = restoreActionArr.pop();
+      const { action, key, value } = lastAction;
+      setLastAction(setActionArr, key);
+      action === 'set' ? object[key] = value :  delete object[key];
+    } else {
+      console.error(`There is nothing to ${unReAction}!`);
+    }
+  };
+	return {
+		set(key, value) {
+      setActionData(key);
+      object[key] = value;
+    },
+		get(key) {
+      return object[key];
+    },
+		del(key) {
+      setActionData(key);
+      delete object[key];
+    },
+		undo() {
+      restoreLastAction('undo', undoArr, redoArr);
+    },
+		redo() {
+      restoreLastAction('redo', redoArr, undoArr);
+    }
+	};
+}
+ ```
