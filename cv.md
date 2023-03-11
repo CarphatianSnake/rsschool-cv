@@ -129,17 +129,17 @@ In my free time, I like to ride a bike. I am fond of extreme types of mountain b
      - Repo: https://github.com/CarphatianSnake/HTML-builder
 
 ## Education
-  #### EAST UKRAINIAN VOLODYMYR DAHL NATIONAL UNIVERSITY
-  2003–2008
-  ##### **Robotics engineering** (Faculty of Computer Sciences)
+  1. #### EAST UKRAINIAN VOLODYMYR DAHL NATIONAL UNIVERSITY
+     2003–2008
+     ##### **Robotics engineering** (Faculty of Computer Sciences)
   
-  #### JavaScript + React from zero to result
-  Udemy course: [Certificate](https://www.udemy.com/certificate/UC-3e4de7a4-7712-44a8-976c-425f94e2474c/)
+  2. #### JavaScript + React from zero to result
+     Udemy course: [Certificate](https://www.udemy.com/certificate/UC-3e4de7a4-7712-44a8-976c-425f94e2474c/)
   
-  #### Modern TypeScript
-  Udemy course: [Certifitace](https://www.udemy.com/certificate/UC-7fe81d5d-74ac-4888-aaeb-3d677bf84ef3/)
+  3. #### Modern TypeScript
+     Udemy course: [Certifitace](https://www.udemy.com/certificate/UC-7fe81d5d-74ac-4888-aaeb-3d677bf84ef3/)
 
 ## Languages
-  English — A2+
-  Ukrainian — native
-  Ruzzian — native
+   - English — A2+
+   - Ukrainian — native
+   - Ruzzian — native
