@@ -1,14 +1,14 @@
-###Markuntovych Dmytro
-#Front-End Developer
+# Markuntovych Dmytro
+##### Front-End Developer
 
 ![My Photo](https://user-images.githubusercontent.com/17194679/224482756-07a4ba13-9b5b-4a6b-aa59-a236f610e1a4.jpg)
 
-##Contacts
+## Contacts
  - Email: dmytro.markuntovych@gmail.com
  - Phone: +380502754918
  - Location: Ukraine, Vinnitsa
 
-##About me
+## About me
 Being challenged is what motivates me!
 
 I'm Web Developer specializing in front end development. Experienced with all stages online store content development. I'm proficient in HTML5, CSS3, JavaScript, TypeScript, React.js and really motivated to develop high quality web projects and applications. Open to learning new technologies and I want to grow and develop as a web developer. I also have a team management and teamwork experience.
