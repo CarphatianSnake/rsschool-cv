@@ -40,18 +40,23 @@ In my free time, I like to ride a bike. I am fond of extreme types of mountain b
 ## Code Example
  ```javascript
  function undoRedo(object) {
+ 
   let undoArr = [];
   let redoArr = [];
+  
   const setLastAction = (arr, key) => {
     const obj = { key, value: object[key] };
     obj.action = !object[key] ? 'del' : 'set';
     arr.push(obj);
   };
+  
   const setActionData = (key) => {
     redoArr = [];
     setLastAction(undoArr, key);
   };
+  
   const restoreLastAction = (unReAction, restoreActionArr, setActionArr) => {
+  
     if (restoreActionArr.length > 0) {
       const lastAction = restoreActionArr.pop();
       const { action, key, value } = lastAction;
@@ -60,25 +65,28 @@ In my free time, I like to ride a bike. I am fond of extreme types of mountain b
     } else {
       console.error(`There is nothing to ${unReAction}!`);
     }
+    
   };
-	return {
-		set(key, value) {
+  
+  return {
+    set(key, value) {
       setActionData(key);
       object[key] = value;
     },
-		get(key) {
+    get(key) {
       return object[key];
     },
-		del(key) {
+    del(key) {
       setActionData(key);
       delete object[key];
     },
-		undo() {
+    undo() {
       restoreLastAction('undo', undoArr, redoArr);
     },
-		redo() {
+    redo() {
       restoreLastAction('redo', redoArr, undoArr);
     }
-	};
+  };
+  
 }
  ```
