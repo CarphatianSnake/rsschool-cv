@@ -100,3 +100,30 @@ In my free time, I like to ride a bike. I am fond of extreme types of mountain b
   
 }
  ```
+
+## Experience
+  I have no commercial experience as Front-End developer, but I have some study projects:
+  1. Songbird
+    This is single page application that fully generates by JavaScript
+    Repo: https://github.com/CarphatianSnake/songbird
+    Deploy: https://carphatiansnake.github.io/songbird/
+  2. Simple calculator of providers prices
+    Repo: https://github.com/CarphatianSnake/bytecloudtest
+    Deploy: https://serene-pavlova-247a26.netlify.app/
+  3. Petspaw application
+    Not finished. And I decided to remake it using TypeScript and RTK Query. Work only for desktop version. And some functionality like search and filters don't work.
+    Repo: https://github.com/CarphatianSnake/petspaw
+    Deploy: https://imaginative-cascaron-943041.netlify.app/
+    And, it's sad, but some requests began not working :(
+    Second vesion (with TypeScript and RTK Query), that I making deployed here: https://petspaw-692a7b.netlify.app/
+    Now it only has responsive layout, theme switching and you can vote for photos, thats all for this moment.
+  4. Eldrich Horror
+    It was a task to make and algorithm for stack mixing.
+    Repo: https://github.com/CarphatianSnake/eldritch
+    Deploy: https://carpathiansnake-eldrich.netlify.app/
+  5. CRUD practice aplication
+    Repo: https://carpathiansnake-eldrich.netlify.app/
+    No deploy.
+  6. HTML builder
+    Node.js basics practice task.
+    Repo: https://github.com/CarphatianSnake/HTML-builder
